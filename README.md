@@ -1,5 +1,9 @@
 # Medical-Insurance-Cost-Prediction-
-machine learning project
+# Problem Statement:
+
+What are the primary factors influencing medical expenses?
+How accurate are machine learning models in predicting medical expenses?
+In what ways can machine learning models enhance the efficiency and profitability of health insurance companies?
 
 Features
 Exploring the dataset
