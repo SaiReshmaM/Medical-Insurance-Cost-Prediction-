@@ -51,42 +51,48 @@ region	Residential area (southeast, northwest, etc.)
 charges	Target variable – medical insurance cost
 
 🔁 Project Workflow
-Data Collection
+# Data Collection
 
 Load the dataset using pandas.read_csv()
 
-Data Exploration
+# Data Exploration
 
 View basic statistics and types using .info() and .describe()
 
 Check for missing values, outliers, and correlations
 
-Data Preprocessing
+# Data Preprocessing
 
 Encode categorical features (sex, smoker, region) using Label Encoding or One-Hot Encoding
 
 Normalize or scale features if needed (not always required for tree models like Random Forest)
 
-Feature & Target Split
+# Feature & Target Split
 
 Separate features (X) and target variable (charges)
 
-Train-Test Split
+# Train-Test Split
 
 Use train_test_split() to divide the data into training and testing sets (e.g., 80/20)
 
-Model Training
+# Model Training
 
 Train Linear Regression and Random Forest Regressor on the training data
 
-Model Evaluation
+# Model Evaluation
 
 Evaluate both models using MAE, RMSE, and R² Score on test data
 
-Comparison & Conclusion
+# Comparison & Conclusion
 
 Compare models and select the best one (Random Forest usually performs better)
 
-Single Input Prediction
+# Single Input Prediction
 
 Use the trained model to predict the cost for new user data
+
+
+# 📁 Dataset
+The dataset used can be downloaded from (Kaggle) 
+# 🔑 Results
+Model gave 86% accuracy for Medical Insurance Amount Prediction using Random Forest Regressor
